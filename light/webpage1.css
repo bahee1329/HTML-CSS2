@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins';
+    box-sizing: border-box;
+    background-color: #1d2026
+}
+
+.nor{
+    background-color: #1d2026;
+    min-height:100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+
+}
+
+ul{
+    
+    flex: 1;
+    text-align: right;
+    
+}
+
+ul li{
+    display: inline;
+    list-style: none;
+    margin: 0 20px;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-bar{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+.logo{
+    width: 160px;
+    cursor: pointer  ;
+}
+
+button{
+    background: #efefef;
+    height: 30px ;
+    width: 60px;
+    border-radius: 20px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    transition: background 0.5s ;
+}
+
+.active{
+    background-color: green;
+}
+
+.active span{
+    background-color: #fff;
+    margin-left: 32px ;
+}
+
+
+
+button span{
+    display: block;
+    background-color: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 50% ;
+    margin-left: 2px;
+    transition: background 0.5s, margin-left 1s;
+}
+
+.lamp-container{
+    position: absolute;
+    top: -20px;
+    left: 22% ;
+    width: 200px;
+    
+}
+
+
+.lamp{
+    width: 100%;
+}
+
+.light{
+    position:relative;
+    top:98% ;
+    left:-260px ;
+    width:700px;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+.on {
+    opacity: 1;
+
+}
+
+
+
+.text-container{
+    position: absolute;
+    max-width:600px;
+    min-width: 200px;
+    margin-left: 60% ;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.text-container a {
+    text-decoration:none ;
+    background: #00986f;
+    padding: 14px 40px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 50px;
+}
+.control{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 150px;
+    margin-right: 100px;
+    font-size: 20px;
+}
+
+.spamner{
+    width:250px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+ 
+
+.control .spamner span{
+    height: 10px;
+    width: 50%;
+    margin-top: -2px;
+    border-radius: 5px;
+    background-color:#00986f;
+    display: block;
+}
